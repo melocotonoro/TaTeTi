@@ -1,0 +1,11 @@
+
+.boardCell{
+    display: flex;
+    height: 6rem;
+    width: 6rem;
+    background-color: #7fffd4;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+}

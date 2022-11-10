@@ -1,0 +1,17 @@
+.gameContent{
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.boardContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+

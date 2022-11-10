@@ -1,0 +1,10 @@
+.pieceContent{
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    color: #0C08D7;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid brown;
+}
