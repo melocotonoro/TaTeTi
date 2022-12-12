@@ -3,7 +3,7 @@ import { Game } from './Components/Game/Game';
 
 function App() {
   return (
-        <div>
+        <div className='App'>
             <Game/>
         </div>
   );

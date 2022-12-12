@@ -1,0 +1,18 @@
+.choiceContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.choiceX{
+    border-bottom: 9px solid greenyellow;
+    margin-right: 4rem;
+}
+
+.choiceO{
+    border-bottom: 9px solid blue;
+}
+
+.inactive{
+    border-bottom: 9px solid transparent;
+}

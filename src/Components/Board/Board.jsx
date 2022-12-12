@@ -6,7 +6,7 @@ const Board = ({cell,handleChange}) => {
     return (
             <>
                 {
-                    cell.map((value,indx)=><div onClick={()=>value==="" && handleChange(indx)} className='boardCell'>{value}</div>)
+                    cell.map((value,indx)=><div key={indx} onClick={()=>value==="" && handleChange(indx)} className='boardCell'>{value}</div>)
                 }
             </>
 )

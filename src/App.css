@@ -1,5 +1,7 @@
 .App {
   text-align: center;
-  background-color: rgb(17, 15, 15);
+  height: 100vh;
+  color:#151515;
+  background: linear-gradient(90deg, hsla(232, 98%, 76%, 1) 0%, hsla(343, 100%, 66%, 1) 100%);
 }
 
